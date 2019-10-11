@@ -1,0 +1,36 @@
+
+.big{
+    background-image: url(../img/IMG-20190909-WA0000.jpg);
+   background-size: cover;
+   margin-left: 20px;
+   margin-bottom: 20px;
+}
+.flex{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    box-shadow: 30%;
+    
+}
+@media (max-width: 768px) {
+    
+    .big{
+        background-image: url(../img/IMG-20190909-WA0000.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat;
+      
+    }
+    
+   }
+   
+footer {
+    position: relative;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-right: 5%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+ 
